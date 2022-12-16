@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/styleHome.css">
+    <title>cv</title>
+</head>
+<body>
+    <section id="container">
+        <div class="header">
+            <div class="title-name">
+                <h3 class="name">Mirindi Saidi</h3>
+                <p class="level">Software developer</p>
+            </div>
+            <!-- image -->
+            <div class="picture">
+                <img src="../image/Mirindi.jpg"alt="">
+            </div>
+        </div>
+
+        <div class="detaile">
+            <div class="title">
+                <p>Person Statement</p>
+            </div>
+            <div class="paragraph">
+                <p>A responsible, motivated, adapted information management seeking employment in an IT environment. Willing to diligently follow guidelines and directions to put to good to use the professional and technical skills developed through past experiences in this field, I will work hard to achieve employer objectives and goals.</p>
+            </div>
+
+            <div class="title">
+                <p>Education</p>
+            </div>
+            <div class="paragraph">
+                <p>  Bachelor Degree</p>
+                <div class="title">
+                    <p style="margin-top: -8px;">  09/2018 – present:</p>
+                </div>
+                <p style="margin-top: -8px;">Adventist University of Central Africa (AUCA) </p>
+            </div>
+            <div class="title">
+                <p style="margin-top: -6px;"> Facult:</p>
+            </div>
+            <div class="paragraph">
+            <p style="margin-top: -5px;">
+                Information Technology (IT) 
+            </p> 
+            </div>
+
+            <div class="title">
+                <p style="margin-top: -6px;">Department : </p>
+            </div>
+            <div class="paragraph">
+            <p style="margin-top: -5px;">
+                Information Management
+            </p> 
+            </div>
+            <div class="paragraph">
+                <p style="margin-top: -5px;">
+                    A2 Degree
+                </p> 
+                </div>
+                <div class="title">
+                    <p style="margin-top: -6px;">  2015 – 2017:</p>
+                </div>
+                <div class="paragraph">
+                    <p style="margin-top: -5px;">
+                        Ecole Secondare Baptiste de la Fraternite (ESBF)
+                    </p> 
+                    </div>
+                    <div class="title">
+                        <p style="margin-top: -6px;"> Department : </p>
+                    </div>
+                    <div class="paragraph">
+                        <p style="margin-top: -5px;">
+                            Information Management 
+                        </p> 
+                        </div>
+
+                        <div class="title">
+                            <p>CERTIFICATE</p>
+                        </div>
+                        <div class="paragraph">
+                           <p>
+                            IoT certificate                                   
+                           </p>
+                        </div>
+                        <div class="title">
+                            <p style="margin-top: -6px;">  09/2020 – 09/2020</p>
+                        </div>
+                        <div class="paragraph">
+                            <p style="margin-top: -5px;">
+                                WatchIT Group                                 
+                            </p>
+                         </div>
+                         <div class="title">
+                            <p>Language</p>
+                        </div>
+                        <div class="paragraph">
+                            <p style="margin-top: -5px;">
+                                <ul>
+                                    <li>English</li>
+                                    <li>Kinyarwanda</li>
+                                    <li>Kiswahili</li>
+                                </ul>                               
+                            </p>
+                         </div>
+        </div>
+
+        <div id="information">
+            <div class="title-info">
+                <h3><b>Skills</b></h3>
+            </div>
+            <div class="defineInfo">
+                <ul>
+                    <li>Programming skills with c,c++,Javascript,html,css</li>
+                    <li>Database Management system	</li>
+                    <li>Networking skills</li>
+                    <li>Linux environment</li>
+                    <li>Microsoft office</li>
+                </ul>
+
+            </div>
+
+            <div class="title-info">
+                <h3>Hobbies </h3>
+            </div>
+            <div class="defineInfo">
+                <ul>
+                    <li>Sport</li>
+                    <li>Music</li>
+                </ul>
+
+            </div>
+
+            <div class="title-info">
+                <h3>References</h3>
+            </div>
+            <div class="defineInfo">
+              
+                <p>SIMBI Arsene</p>
+                <p style="margin-top:-10px;">Managing Director at <b style="color:black;">WatchIT Group</b></p>
+                <p style="margin-top:-10px;">Tel: +250781272103</p>
+            </div>
+
+            <div class="title-info">
+                <h3> DECLARATION</h3>
+            </div>
+            <div class="defineInfo">
+                <p>I solemnly declare that all the above information is correct to the best of my knowledge and belief. </p>
+            </div>
+        </div>
+    </section>
+    <script>
+        const title = document.querySelector(".title-name")
+        const name = document.querySelector(".name")
+        const level = document.querySelector(".level")
+        title.addEventListener('click',()=>{
+            var x = Math.floor(Math.random() * 256);
+            var y = Math.floor(Math.random() * 256);
+            var z = Math.floor(Math.random() * 256);
+            var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+        
+            name.style = `color:${bgColor}`
+            level.style = `color:${bgColor}`
+            })
+    </script>
+</body>
+</html>
